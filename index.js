@@ -37,8 +37,9 @@ server.on('connection', function (c) {
       c.write('HTTP/1.1 200 OK\r\n')
       c.write('Date: ' + (new Date()).toString() + '\r\n')
       c.write('Connection: close\r\n')
-      c.write('Content-Type: text/plain\r\n')
+      c.write('Content-Type: *\r\n')
       c.write('Access-Control-Allow-Origin: *\r\n')
+      c.write('Access-Control-Allow-Headers: *\r\n')
       c.write('\r\n')
       setTimeout(function () {
         c.end()
