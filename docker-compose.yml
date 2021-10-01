@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+    echo:
+        image: http-echo-server
+        restart: unless-stopped
+        ports:
+            - 3028:3028
