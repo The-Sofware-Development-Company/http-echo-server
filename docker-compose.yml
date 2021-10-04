@@ -5,3 +5,11 @@ services:
         restart: unless-stopped
         ports:
             - 3028:3028
+
+    echo-with-https:
+        image: foxylion/nginx-self-signed-https
+        restart: unless-stopped
+        environment:
+            - REMOTE_URL=http://echo:3028
+        ports:
+            - 443:443
