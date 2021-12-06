@@ -1,4 +1,10 @@
-# Augmented by [The Software Development Company](https://sdc.am)
+# The project is augmented by [The Software Development Company](https://sdc.am)
+
+## Description about augmentation
+
+The project is changed to run in docker and to serve https endpoints.
+
+## How to docker
 
 To run the server in docker run `make` .
 
