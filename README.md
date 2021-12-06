@@ -1,3 +1,19 @@
+# Augmented by [The Software Development Company](https://sdc.am)
+
+To run the server in docker run `make` .
+
+http server will start with port 3028
+https server will start with port 443
+
+In order to see logs for the server monitor logs using the following command
+
+```docker-compose logs -f echo```
+
+
+In order to stop the server please run
+
+```docker-compose down```
+
 # http-echo-server
 
 Will accept any TCP connection and echo back a HTTP response with the
