@@ -8,8 +8,8 @@ The project is changed to run in docker and to serve https endpoints.
 
 To run the server in docker run `make` .
 
-http server will start with port 3028
-https server will start with port 443
+* http server will start with port 3028
+* https server will start with port 443
 
 In order to see logs for the server monitor logs using the following command
 
